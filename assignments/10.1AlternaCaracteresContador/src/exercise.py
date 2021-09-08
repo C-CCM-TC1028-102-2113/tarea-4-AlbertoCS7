@@ -1,6 +1,14 @@
+#Alternacaracterescontador
 def main():
-    #escribe tu código abajo de esta línea
-    pass
+    repeticiones=int(input("¿Cuantas veces se va a repetir el caracter?"))
+    
+        for i in range (repeticiones):
+            if i % 2 == 0:
+            print(i,"-%")
+            else:
+            print(i,"-#")
 
+    
+   
 if __name__=='__main__':   
     main()
