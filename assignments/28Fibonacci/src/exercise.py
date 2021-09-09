@@ -4,7 +4,6 @@ def main():
     n1=0
     n2=1
     i=1
-    n2=1
     serie=0
    if index  >= 0:
         if index  == 0:
