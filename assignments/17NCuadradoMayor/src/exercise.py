@@ -6,7 +6,7 @@ def main():
     i=0
     while (numelevado<=numero):
         i=i+1
-    print(sqrt(elevado))
+    print(sqrt(numelevado))
     
 if __name__=='__main__':
     main()
